@@ -1,6 +1,3 @@
-
-
-
 // Hero background image slider (fallback if video not used)
 const hero = document.querySelector('.hero');
 const heroImages = [
@@ -63,5 +60,3 @@ window.addEventListener('scroll', () => {
     if (top < height) reveal.classList.add('active');
   }
 });
-
-
