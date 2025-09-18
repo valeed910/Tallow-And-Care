@@ -1,4 +1,9 @@
 // Hero background image slider (fallback if video not used)
+document.getElementById("menuToggle").addEventListener("click", function() {
+  document.getElementById("navLinks").classList.toggle("show");
+});
+
+
 const hero = document.querySelector('.hero');
 const heroImages = [
   "https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=1500&q=80",
@@ -60,3 +65,4 @@ window.addEventListener('scroll', () => {
     if (top < height) reveal.classList.add('active');
   }
 });
+
