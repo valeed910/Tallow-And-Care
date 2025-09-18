@@ -65,7 +65,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Default desktop view */
+/* Button styling */
 .menu-toggle {
   display: none;
   background: none;
@@ -73,16 +73,20 @@ body {
   font-size: 2rem;
   color: #fff;
   cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 200; /* above everything */
 }
 
-/* Mobile styles */
+/* Mobile view */
 @media (max-width: 768px) {
   .nav-links {
-    display: none; /* hidden by default */
+    display: none; /* hide by default */
     flex-direction: column;
     gap: 15px;
     position: absolute;
-    top: 70px; /* below navbar */
+    top: 60px; /* below navbar */
     right: 20px;
     background: rgba(0, 0, 0, 0.9);
     padding: 1rem;
@@ -90,11 +94,11 @@ body {
   }
 
   .nav-links.show {
-    display: flex; /* show when active */
+    display: flex; /* show on toggle */
   }
 
   .menu-toggle {
-    display: block; /* show button only on mobile */
+    display: block; /* show only on mobile */
   }
 }
 
@@ -989,5 +993,6 @@ body {
   color: #207C3A;
   font-weight: 600;
 }
+
 
 
