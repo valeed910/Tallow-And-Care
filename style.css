@@ -65,6 +65,40 @@ body {
   transform: scale(1.05);
 }
 
+/* Default desktop view */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* hidden by default */
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 70px; /* below navbar */
+    right: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .nav-links.show {
+    display: flex; /* show when active */
+  }
+
+  .menu-toggle {
+    display: block; /* show button only on mobile */
+  }
+}
+
+
 /* Hero Section */
 .hero {
   height: 100vh;
@@ -955,4 +989,5 @@ body {
   color: #207C3A;
   font-weight: 600;
 }
+
 
