@@ -1,8 +1,17 @@
 // Hero background image slider (fallback if video not used)
-document.getElementById("menuToggle").addEventListener("click", function() {
-  document.getElementById("navLinks").classList.toggle("show");
-});
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
 
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
+
+  // Toggle between ☰ and ✖
+  if (navLinks.classList.contains("show")) {
+    menuToggle.textContent = "✖";
+  } else {
+    menuToggle.textContent = "☰";
+  }
+});
 
 const hero = document.querySelector('.hero');
 const heroImages = [
@@ -65,5 +74,6 @@ window.addEventListener('scroll', () => {
     if (top < height) reveal.classList.add('active');
   }
 });
+
 
 
