@@ -88,9 +88,9 @@ body {
     position: absolute;
     top: 60px; /* below navbar */
     right: 20px;
-    background: rgba(0, 0, 0, 0.9);
+    background: transparent;
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 10px
   }
 
   .nav-links.show {
@@ -993,6 +993,7 @@ body {
   color: #207C3A;
   font-weight: 600;
 }
+
 
 
 
