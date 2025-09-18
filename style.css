@@ -90,7 +90,6 @@ body {
     right: 20px;
     background: transparent;
     padding: 1rem;
-    border-radius: 10px
   }
 
   .nav-links.show {
@@ -993,6 +992,7 @@ body {
   color: #207C3A;
   font-weight: 600;
 }
+
 
 
 
