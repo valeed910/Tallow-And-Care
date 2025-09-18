@@ -38,6 +38,8 @@ body {
   text-decoration: none;
   font-weight: 600;
   color: #fff;
+  padding: 10px;
+  text-align: right;
   position: relative;
   transition: color 0.3s ease;
 }
@@ -992,6 +994,7 @@ body {
   color: #207C3A;
   font-weight: 600;
 }
+
 
 
 
