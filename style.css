@@ -179,6 +179,9 @@ body {
         text-align: center;
         padding: 0 1rem;
     }
+  .hero-bg-video{
+    width: 100%
+  }
 }
 
 /* ================= ABOUT SECTION ================= */
@@ -994,6 +997,7 @@ body {
   color: #207C3A;
   font-weight: 600;
 }
+
 
 
 
