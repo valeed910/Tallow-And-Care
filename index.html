@@ -5,17 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tallow & Care | Nature’s Care</title>
   <link rel="icon" href="logo.png">
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Lato:400,700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-  <!-- Consolidated CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Hero Section with Video Background -->
+  
+  <!-- Hero Section -->
   <section class="hero hero-video" id="hero">
     <video autoplay muted loop playsinline class="hero-bg-video">
       <source src="your-video.mp4" type="video/mp4">
-      <!-- Fallback image could go here if needed -->
     </video>
     <nav class="navbar navbar-video">
       <div class="logo">
@@ -26,13 +24,11 @@
         <li><a href="#about">About</a></li>
         <li><a href="#products">Products</a></li>
         <li><a href="#why">Why Tallow?</a></li>
-<!--         <li><a href="#testimonials">Reviews</a></li> -->
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <!-- Menu Button -->
       <button class="menu-toggle" id="menuToggle">☰</button>
     </nav>
-<!-- Add a menu button inside the navbar -->
-<!-- <button id="menu-toggle" style="background:none; border:none; color:#fff; font-size:1.5rem;">☰</button> -->
     <div class="hero-center">
       <h1 class="hero-title">Tallow & Care</h1>
       <p class="hero-sub">Nature’s Care for Every Pet</p>
@@ -73,46 +69,34 @@
       </div>
     </div>
   </section>
-  <!-- Featured Products -->
-  <!-- Featured Products -->
-<section id="products" class="products-reveal">
-  <h1 class="coming-soon">Coming soon...</h1>
-</section>
+  
+  <!-- Products Section -->
+  <section id="products" class="products-reveal">
+    <h1 class="coming-soon">Coming soon...</h1>
+  </section>
   <section class="why" id="why">
-  <div class="why-container">
-    <!-- Left Side: Text -->
-    <div class="why-text">
-      <h2>Why Choose Tallow?</h2>
-      <ul>
-        <li>🌟 Rich in Vitamins A, D, E, K</li>
-        <li>🛡 Naturally antimicrobial</li>
-        <li>💧 Moisturizes deeply</li>
-        <li>♻️ 100% biodegradable</li>
-      </ul>
-      <button class="btn-secondary">Read More</button>
-    </div>
-    <!-- Right Side: Logo -->
-    <div class="why-img">
+    <div class="why-container">
+      <div class="why-text">
+        <h2>Why Choose Tallow?</h2>
+        <ul>
+          <li>🌟 Rich in Vitamins A, D, E, K</li>
+          <li>🛡 Naturally antimicrobial</li>
+          <li>💧 Moisturizes deeply</li>
+          <li>♻️ 100% biodegradable</li>
+        </ul>
+        <button class="btn-secondary">Read More</button>
+      </div>
+      <div class="why-img">
       <img src="logo_detail.png" alt="Tallow & Shine logo">
+      </div>
     </div>
-  </div>
-</section>
-<!--   <section id="testimonials" class="testimonials reveal">
-  <h2>💬 What Our Customers Say</h2>
-  <div class="testimonial-slider">
-    <div class="testimonial-container">
-      <div class="testimonial">⭐⭐⭐⭐⭐ <br> “Our dog’s skin finally healed with your balm!”</div>
-      <div class="testimonial">⭐⭐⭐⭐⭐ <br> “Our cows love the udder cream — no more irritation.”</div>
-      <div class="testimonial">⭐⭐⭐⭐⭐ <br> “Best eco-friendly product for pets we’ve tried.”</div>
-    </div>
-  </div>
-</section> -->
+  </section>
+
   <!-- Sustainability Section -->
   <section class="sustain reveal">
     <h2>🌍 100% Natural. 0% Waste.</h2>
     <p>All products are made from by-products of local meat sources. Our packaging is compostable, recyclable, and plastic-free.</p>
   </section>
-  <!-- Newsletter Section -->
   <section class="newsletter reveal">
     <h2>🐶 Want the cleanest care for your pets?</h2>
     <p>🌿 Sign up & get 10% off your first order!</p>
@@ -130,112 +114,103 @@
       </iframe>
     </div>
   </section>
-<!-- Contact Form -->
-<section id="contact" class="contact-section">
-<form class="contact-form" id="contactForm">
-  <div class="form-group">
-    <label for="name">Full Name *</label>
-    <input type="text" id="name" name="name" placeholder="Your Name" required>
-  </div>
-  <div class="form-group">
-    <label for="email">Email Address *</label>
-    <input type="email" id="email" name="email" placeholder="your@email.com" required>
-  </div>
-  <div class="form-group">
-    <label for="subject">Subject</label>
-    <select id="subject" name="subject">
-      <option value="product">Product Inquiry</option>
-      <option value="shipping">Shipping & Orders</option>
-      <option value="wholesale">Wholesale Inquiries</option>
-      <option value="feedback">Feedback</option>
-      <option value="other">Other</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="message">Message *</label>
-    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
-  </div>
-  <button type="submit" class="btn">Send Message</button>
-</form>
-<p class="confirmation-message" id="confirmationMessage">
-  Thanks for reaching out! We’ll get back to you within 48 hours.
-</p>
-</section>
-<!-- Alternative Contact (replacing old one with your Contact Info Section) -->
-<section class="contact-info reveal">
-  <div class="container">
-    <h2>
-      <img src="https://cdn-icons-png.flaticon.com/512/1077/1077080.png" alt="Contact Icon" class="icon">
-      Other Ways to Contact Us
-    </h2>
-    <p>
-      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email Icon" class="icon-small">
-      Email: <a href="mailto:tallowandcare@gmail.com" class="contact-link">tallowandcare@gmail.com</a>
-    </p>
-    <p>
-      <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Phone Icon" class="icon-small">
-      Phone: <a href="tel:9457294984" class="contact-link">9457294984</a> (Call or WhatsApp)
-    </p>
-    <p>
-      <img src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png" alt="Clock Icon" class="icon-small">
-      Business Hours: Mon–Fri: 9 AM – 6 PM | Sat: 10 AM – 4 PM | Sun: Closed
-    </p>
-    <!-- Social Links -->
-    <div class="socials">
-      <a href="https://www.instagram.com/tallowandshine?igsh=aHNqMnpnOHVsN3J2" class="instagram social-link">
+  
+  <!-- Contact Form -->
+  <section id="contact" class="contact-section">
+    <form class="contact-form" id="contactForm">
+      <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject">
+          <option value="product">Product Inquiry</option>
+          <option value="shipping">Shipping & Orders</option>
+          <option value="wholesale">Wholesale Inquiries</option>
+          <option value="feedback">Feedback</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+    <div class="form-group">
+      <label for="message">Message *</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+    </div>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+  <p class="confirmation-message" id="confirmationMessage">
+    Thanks for reaching out! We’ll get back to you within 48 hours.
+  </p>
+  </section>
+  
+  <!-- Alternative Contact -->
+  <section class="contact-info reveal">
+    <div class="container">
+      <h2>
+        <img src="https://cdn-icons-png.flaticon.com/512/1077/1077080.png" alt="Contact Icon" class="icon">
+          Other Ways to Contact Us
+      </h2>
+      <p>
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email Icon" class="icon-small">
+          Email: <a href="mailto:tallowandcare@gmail.com" class="contact-link">tallowandcare@gmail.com</a>
+      </p>
+      <p>
+        <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Phone Icon" class="icon-small">
+          Phone: <a href="tel:9457294984" class="contact-link">9457294984</a> (Call or WhatsApp)
+      </p>
+      <p>
+        <img src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png" alt="Clock Icon" class="icon-small">
+          Business Hours: Mon–Fri: 9 AM – 6 PM | Sat: 10 AM – 4 PM | Sun: Closed
+        </p>
+        <div class="socials">
+          <a href="https://www.instagram.com/tallowandshine?igsh=aHNqMnpnOHVsN3J2" class="instagram social-link">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" class="icon-small">Instagram
+          </a>
+          <a href="https://wa.me/9457294984" class="whatsapp social-link">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733645.png" alt="WhatsApp" class="icon-small">WhatsApp
+          </a>
+          <a href="https://www.linkedin.com/company/tallow-care/posts/?feedView=all" class="linkedin social-link">
+            <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" class="icon-small">LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+  
+  <!-- Footer Section -->
+  <footer class="footer reveal">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="logo_detail.png" alt="Tallow & Shine Logo">
+      </div>
+      <nav class="footer-links">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="socials">
+        <a href="https://www.instagram.com/tallowandshine?igsh=aHNqMnpnOHVsN3J2" class="instagram social-link">
           <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" class="icon-small">Instagram
-       </a>
-<!--       <a href="#" class="facebook social-link">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="icon-small">Facebook
-      </a> -->
-      <a href="https://wa.me/9457294984" class="whatsapp social-link">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733645.png" alt="WhatsApp" class="icon-small">WhatsApp
-      </a>
-        <a href="https://www.linkedin.com/company/tallow-care/posts/?feedView=all" class="linkedin social-link">
-          <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" class="icon-small">LinkedIn
         </a>
+        <a href="https://wa.me/9457294984" class="whatsapp social-link">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733645.png" alt="WhatsApp" class="icon-small">WhatsApp
+        </a>
+      </div>
+      <div class="contact-info">
+        <p><strong>Email:</strong>tallowandcare@gmail.com</p>
+        <p><strong>Phone:</strong> +91-9457294984</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 <span>Tallow & Care</span>. All rights reserved.</p>
+      </div>
     </div>
-  </div>
-</section>
-  <!-- Footer -->
-<!-- Footer -->
-<footer class="footer reveal">
-  <div class="footer-container">
-    <!-- Logo -->
-    <div class="footer-logo">
-      <img src="logo_detail.png" alt="Tallow & Shine Logo">
-    </div>
-    <!-- Links -->
-    <nav class="footer-links">
-<!--       <a href="#products">Products</a> -->
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <!-- Social Icons -->
-    <div class="socials">
-      <a href="https://www.instagram.com/tallowandshine?igsh=aHNqMnpnOHVsN3J2" class="instagram social-link">
-         <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" class="icon-small">Instagram
-      </a>
-<!--       <a href="#"><span>📘</span> Facebook</a> -->
-      <a href="https://wa.me/9457294984" class="whatsapp social-link">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733645.png" alt="WhatsApp" class="icon-small">WhatsApp
-      </a>
-    </div>
-    <!-- Contact Info -->
-    <div class="contact-info">
-      <p><strong>Email:</strong>tallowandcare@gmail.com</p>
-      <p><strong>Phone:</strong> +91-9457294984</p>
-    </div>
-    <!-- Bottom Note -->
-    <div class="footer-bottom">
-      <p>&copy; 2025 <span>Tallow & Care</span>. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
-  <!-- Consolidated JS -->
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
